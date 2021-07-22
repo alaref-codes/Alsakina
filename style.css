@@ -270,7 +270,6 @@ label {
     width: 50%;
 }
 
-
 @media (max-width: 600px) {
     .more {
         flex-direction: column;
@@ -278,13 +277,27 @@ label {
     }
 }
 
+.comments {
+    margin: 100px auto;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.comments img {
+    height: 100px;
+    width: 100px;
+}
 
-
-
+.single {
+    background-color: rgb(182, 176, 176);
+    border-radius: 10px;
+    width: 300px;
+}
 
 footer {
-    background-color: rgb(185, 183, 183);
+    background-color: rgb(218, 226, 145);
 }
 
 .upper {
@@ -293,6 +306,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border: none;
+    border-top: 1px dotted black;
 }
 
 .brand {
@@ -315,7 +330,6 @@ footer {
     font-size: 35px;
 }
 
-
 .call {
     display: block;
     text-decoration: none;
@@ -323,14 +337,11 @@ footer {
     font-weight: 700;
 }
 
-
 .lower {
     border: none;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(110, 94, 19, 0.9) ;
     padding: 20px;
 }
-
-
 
 @media (max-width: 560px) {
     .upper {
